@@ -29,24 +29,46 @@ namespace figurki_atempt_3
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnTriangle = new System.Windows.Forms.Button();
+            this.btnRectangle = new System.Windows.Forms.Button();
+            this.btnCircle = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnTriangle
             // 
-            this.button1.Location = new System.Drawing.Point(48, 26);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnTriangle.Location = new System.Drawing.Point(48, 26);
+            this.btnTriangle.Name = "btnTriangle";
+            this.btnTriangle.Size = new System.Drawing.Size(75, 23);
+            this.btnTriangle.TabIndex = 0;
+            this.btnTriangle.Text = "triangle";
+            this.btnTriangle.UseVisualStyleBackColor = true;
+            // 
+            // btnRectangle
+            // 
+            this.btnRectangle.Location = new System.Drawing.Point(201, 26);
+            this.btnRectangle.Name = "btnRectangle";
+            this.btnRectangle.Size = new System.Drawing.Size(75, 23);
+            this.btnRectangle.TabIndex = 1;
+            this.btnRectangle.Text = "rectangle";
+            this.btnRectangle.UseVisualStyleBackColor = true;
+            // 
+            // btnCircle
+            // 
+            this.btnCircle.Location = new System.Drawing.Point(351, 26);
+            this.btnCircle.Name = "btnCircle";
+            this.btnCircle.Size = new System.Drawing.Size(75, 23);
+            this.btnCircle.TabIndex = 2;
+            this.btnCircle.Text = "circle";
+            this.btnCircle.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCircle);
+            this.Controls.Add(this.btnRectangle);
+            this.Controls.Add(this.btnTriangle);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -55,7 +77,9 @@ namespace figurki_atempt_3
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnTriangle;
+        private System.Windows.Forms.Button btnRectangle;
+        private System.Windows.Forms.Button btnCircle;
     }
 }
 
