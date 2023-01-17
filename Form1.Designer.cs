@@ -42,6 +42,7 @@ namespace figurki_atempt_3
             this.btnTriangle.TabIndex = 0;
             this.btnTriangle.Text = "triangle";
             this.btnTriangle.UseVisualStyleBackColor = true;
+            this.btnTriangle.Click += new System.EventHandler(this.btnTriangle_Click);
             // 
             // btnRectangle
             // 
